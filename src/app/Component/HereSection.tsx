@@ -5,7 +5,7 @@ import Homebgimg from "../../../public/assets/Homebgimg.png";
 
 export default function HeroSection() {
   return (
-    <div className="relative w-full min-h-screen overflow-hidden bg-black border ">
+    <div className="relative w-full min-h-screen overflow-hidden bg-black border  animate-zoom-in ">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -18,14 +18,14 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 flex flex-col justify-center h-full px-4 mx-auto mt-36">
+      <div className="container relative z-10 flex flex-col justify-center h-full px-4 mx-auto mt-48">
         <div className="max-w-2xl">
-          <h2 className="mb-4 text-sm tracking-widest text-gray-300 uppercase md:text-base">
+          <h2 className="mb-4 text-sm tracking-widest text-white uppercase md:text-base">
             WELCOME TO PIXOTO WORLD
           </h2>
 
           <h1 className="mb-6 text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl animate-slide-in-out">
-            We are a digital photography house
+            We Are a Digital Photography House
           </h1>
 
 
