@@ -18,7 +18,7 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 flex flex-col justify-center h-full px-4 mx-auto pt-48 sm:pt-60 md:pt-52 lg:pt-44">
+      <div className="container relative z-10 flex flex-col justify-center h-full px-4 mx-auto pt-44 sm:pt-56 md:pt-52 lg:pt-44">
         <div className="max-w-3xl">
           <h2 className="mb-4 text-md tracking-widest text-white uppercase sm:text-sm md:text-base">
             WELCOME TO PIXOTO WORLD
@@ -40,7 +40,7 @@ export default function HeroSection() {
               { name: "Model", href: "/services/moden" },
 
               { name: "Fashion", href: "/services/fashion" },
-              { name: "Jewellery", href: "/services/jewellery" }, 
+              { name: "Jewellery", href: "/services/jewllery" }, 
 
               { name: "Food and Drinks", href: "/services/foodanddrinks" },
               { name: "E-Commerce / Product", href: "/services/ecommerce" },

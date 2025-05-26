@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Smooth continuous scroll for Swiper */
+.mySwiper .swiper-wrapper {
+  transition-timing-function: linear;
+}
+
