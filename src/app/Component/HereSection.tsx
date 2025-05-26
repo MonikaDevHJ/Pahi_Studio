@@ -24,7 +24,7 @@ export default function HeroSection() {
             WELCOME TO PIXOTO WORLD
           </h2>
 
-          <h1 className="mb-6 text-6xl font-extrabold leading-tight text-white sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl flex flex-wrap gap-2 "  style={{ textShadow: "2px 2px 5px rgba(0,0,0,0.3)" }}>
+          <h1 className="mb-6 text-6xl font-extrabold leading-tight text-white sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl flex flex-wrap gap-2 " style={{ textShadow: "2px 2px 5px rgba(0,0,0,0.3)" }}>
             {["We", "Are", "a", "Digital", "Photography", "House"].map((word, index) => (
               <span
                 key={index}
@@ -35,25 +35,28 @@ export default function HeroSection() {
               </span>
             ))}
           </h1>
-
-          <ul className="space-y-3 mb-6"  style={{ textShadow: "2px 2px 5px rgba(0,0,0,0.3)" }}>
+          <ul className="space-y-4 mb-6 " style={{ textShadow: "1px 1px 3px rgba(0,0,0,0.3)" }}>
             {[
-              { name: "Fashion", href: "/services/fashion" },
-              { name: "E-Commerce / Product", href: "/services/ecommerce" },
-              { name: "Jewellery", href: "/services/jewllery" },
               { name: "Model", href: "/services/moden" },
+
+              { name: "Fashion", href: "/services/fashion" },
+              { name: "Jewellery", href: "/services/jewellery" }, 
+
               { name: "Food and Drinks", href: "/services/foodanddrinks" },
+              { name: "E-Commerce / Product", href: "/services/ecommerce" },
+
             ].map((item, index) => (
               <li key={index}>
                 <Link
                   href={item.href}
-                  className="text-white font-semibold text-3xl sm:text-xl md:text-2xl lg:text-3xl transition-colors hover:text-sky-400"
+                  className="inline-block px-5 py-2 rounded-full font-bold bg-white text-slate-800 hover:bg-sky-600 transition duration-300 cursor-pointer select-none"
                 >
                   {item.name}
                 </Link>
               </li>
             ))}
           </ul>
+
 
           <div className="flex flex-wrap gap-4 mt-4">
             <Link
