@@ -14,16 +14,20 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
                 {/* Logo */}
                 {/* Logo */}
+                {/* Logo */}
                 <Link href="/" className="flex items-center space-x-2">
-                    <Image
-                        src={Pahi_Logo}
-                        alt="Paahi Logo"
-                        width={70}
-                        height={70}
-                        className="rounded-2xl" // ✅ This makes it a perfect circle
-                    />
-                    <span className="text-lg font-bold">Paahi Productions</span>
+                    <div className="flex items-center space-x-2 cursor-pointer">
+                        <Image
+                            src={Pahi_Logo}
+                            alt="Paahi Logo"
+                            width={70}
+                            height={70}
+                            className="rounded-2xl"
+                        />
+                        <span className="text-lg font-bold">Paahi Productions</span>
+                    </div>
                 </Link>
+
 
 
                 {/* Desktop Menu */}

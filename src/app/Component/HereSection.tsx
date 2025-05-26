@@ -24,7 +24,7 @@ export default function HeroSection() {
             WELCOME TO PIXOTO WORLD
           </h2>
 
-          <h1 className="mb-6 text-5xl font-bold leading-tight text-sky-500 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl flex flex-wrap gap-2">
+          <h1 className="mb-6 text-6xl font-extrabold leading-tight text-white sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl flex flex-wrap gap-2 "  style={{ textShadow: "2px 2px 5px rgba(0,0,0,0.3)" }}>
             {["We", "Are", "a", "Digital", "Photography", "House"].map((word, index) => (
               <span
                 key={index}
@@ -36,7 +36,7 @@ export default function HeroSection() {
             ))}
           </h1>
 
-          <ul className="space-y-3 mb-6">
+          <ul className="space-y-3 mb-6"  style={{ textShadow: "2px 2px 5px rgba(0,0,0,0.3)" }}>
             {[
               { name: "Fashion", href: "/services/fashion" },
               { name: "E-Commerce / Product", href: "/services/ecommerce" },
