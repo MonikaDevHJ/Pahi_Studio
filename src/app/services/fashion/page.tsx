@@ -13,8 +13,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const brands = [
   { name: "kurta1", logo: "/assets/Kurta1.png" },
-  { name: "Kurta2", logo: "/assets/Kurta2.png" },
-  { name: "Kurta3", logo: "/assets/Kurta3.png" },
+  
   { name: "Kurta4", logo: "/assets/Kurta4.png" },
   { name: "Kurta5", logo: "/assets/Kurta5.png" },
   { name: "Kurta6", logo: "/assets/Kurta6.png" },
