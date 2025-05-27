@@ -13,15 +13,15 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const brands = [
   { name: "kurta1", logo: "/assets/kurta1.png" },
-  { name: "Kurta2", logo: "/assets/kurta2.png" },
+  { name: "Kurta2", logo: "/assets/Kurta2.png" },
   { name: "Kurta3", logo: "/assets/kurta3.png" },
   { name: "Kurta4", logo: "/assets/kurta4.png" },
   { name: "Kurta5", logo: "/assets/kurta5.png" },
   { name: "Kurta6", logo: "/assets/kurta6.png" },
   { name: "Kurta7", logo: "/assets/kurta7.png" },
-  { name: "Kurta8", logo: "/assets/kurta8.png" },
+  { name: "Kurta8", logo: "/assets/Kurta8.png" },
   { name: "Kurta9", logo: "/assets/kurta9.png" },
-  { name: "Kurta10", logo: "/assets/kurta10.png" },
+  { name: "Kurta10", logo: "/assets/Kurta10.png" },
   { name: "Kurta11", logo: "/assets/kurta11.png" },
   { name: "Kurta12", logo: "/assets/kurta12.png" },
 ];
